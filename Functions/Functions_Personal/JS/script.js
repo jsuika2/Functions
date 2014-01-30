@@ -9,7 +9,7 @@
 
 alert("I am having two friends over to share a pizza pie. Deciding if we need to order a second pizza."); //explains the problem in a alert
 
-var slicesPie =prompt("How many slices in your pizza pie")
+var slicesPie =prompt("How many slices in your Pizza? Large =8","");
 
 var joshPizza=prompt("How many slices of Pizza does Josh want to eat","");
 var jonPizza=prompt("How many slices of Pizza does Jon want to eat","");
@@ -26,26 +26,12 @@ if (bigLunch=="yes"){
 }else{
     var jeremyPizza=3
 }
-
-
-//var total1 =(joshPizza/slicesPie)+(jonPizza/slicesPie)+(jeremyPizza/slicesPie);
-
-///var total2 =((joshPizza-2) / slicesPie)  +   ((jonPizza-2) / slicesPie)   +   ((jeremyPizza-1) / slicesPie);
-
-
-
-
-
-
-
-
-
 if(joshNachos=="yes"){
-    var total1 =((joshPizza-2) / slicesPie)  +   ((jonPizza-2) / slicesPie)   +   ((jeremyPizza-1) / slicesPie);
+    var total1 =((joshPizza-1) / slicesPie)  +   ((jonPizza-2) / slicesPie)   +   ((jeremyPizza-1) / slicesPie);
 }else{
     var total1 =(joshPizza/slicesPie)+(jonPizza/slicesPie)+(jeremyPizza/slicesPie);
-
-}if(total1<=1){
+}
+if(total1<=1){
  console.log("We are good with one pizza pie.");
 }
 else{
