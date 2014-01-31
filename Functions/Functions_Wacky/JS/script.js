@@ -1,13 +1,17 @@
 /**
  * Created by Jeremy A. Suika on 1/29/14.
+ * Functions Wacky
  */
+
+// This function is seeing if a clown fish can travel 20 miles in 2 days.
+
+
+alert("A clown fish must travel 20 miles in 2 days to find his fish son or bad things happen. The things he meets, can slow him down or help him. ")
+var milesPerDay=prompt("Regardless of distractions, the clown fish travels how many miles per day?","");
 
 var fishMiles = 5;   //
 var day1Miles
 var day2Miles
-
-alert("A clown fish must travel 20 miles in 2 days to find his fish son or bad things happen. The things he meets, can slow him down or help him. ")
-alert("Each day the fish travels he goes 5 miles, regardless of distractions or help.")
 
 var sharkBait =prompt("DAY ONE--- Did he visit the sharks near the reef (sharks will slow him down in miles per day","yes or no");
 
@@ -33,7 +37,7 @@ if (day2Miles = 5 + day1Miles + turtleTotal >= 20){
 
 //test
 //console.log(turtleTotal);
-console.log(day2Miles);
+//console.log(day2Miles);
 
 
 
